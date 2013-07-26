@@ -10,7 +10,7 @@ import boto
 def getallbuckets():
    buckets = conn.get_all_buckets()
    for b in buckets:
-       print b.name
+       print b.name, "\t", b.creation_date
 
 if __name__ == "__main__":
    conn = boto.connect_s3()
