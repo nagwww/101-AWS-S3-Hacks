@@ -9,7 +9,7 @@ import boto
 
 def getallbuckets():
    buckets = conn.get_all_buckets()
-   for b buckets:
+   for b in buckets:
        print b.name
 
 if __name__ == "__main__":
