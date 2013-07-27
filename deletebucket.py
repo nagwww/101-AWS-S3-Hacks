@@ -13,5 +13,5 @@ def deletebucket(name):
 
 if __name__ == "__main__":
    conn = boto.connect_s3()
-   bucketname = "101-s3-createbucket"
+   bucketname = "101-s3-aws"
    deletebucket(bucketname)

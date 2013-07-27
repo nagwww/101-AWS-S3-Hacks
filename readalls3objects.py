@@ -4,7 +4,7 @@
 - Author : Nag m
 - Lists all objects in a bucket
 - The name of the bucket is
-   * a-bucket101
+   * 101-s3-aws
 """
 
 import boto
@@ -16,5 +16,5 @@ def getallobjects(name):
 
 if __name__ == "__main__":
    conn = boto.connect_s3()
-   bucketname = "a-bucket101"
+   bucketname = "101-s3-aws"
    getallobjects(bucketname)
