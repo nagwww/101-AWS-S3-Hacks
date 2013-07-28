@@ -9,3 +9,5 @@ Hack 3 : Create a S3 Bucket. <br>
 Hack 4 : Delete a S3 Bucket.<br>
 Hack 5 : Create a S3 Object.<br>
 Hack 6 : Delete a S3 Object.<br>
+Hack 7 : Upload a file to S3 Bucket<br>
+Hack 8 : Download a file from S3 Bucket<br>
