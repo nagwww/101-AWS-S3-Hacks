@@ -4,6 +4,7 @@
 - Author : Nag m
 - Search for a bucket named
   * 101-s3-aws
+- Did you know that lookup is case insensitive  
 """
 
 import boto
