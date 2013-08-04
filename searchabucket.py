@@ -2,9 +2,14 @@
 
 """
 - Author : Nag m
+<<<<<<< HEAD
 - Hack   : Search for a specific bucket
 - Info   : Search for a bucket named
   	   * 101-s3-aws
+=======
+- Search for a bucket named
+  * 101-s3-aws
+- Did you know that lookup is case insensitive  
 """
 
 import boto
