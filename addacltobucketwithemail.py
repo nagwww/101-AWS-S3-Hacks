@@ -2,7 +2,7 @@
 
 """
 - Author : Nag m
-- Hack   : Add ACL to the bucket. Grant Read privilages to the bucket using email address of another AWS Account
+- Hack   : Add ACL to the bucket. Grant Read privilages to the bucket using email address
 - Info   : Add ACL to the bucket. Grant READ privilages to the bucket using email address of the AWS Account
             * 101-s3-aws
 """

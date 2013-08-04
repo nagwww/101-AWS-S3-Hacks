@@ -3,8 +3,8 @@
 
 AWS S3 Hacks
 
-- Hack   : Add ACL to the bucket. Grant Read privilages to the bucket using email address of another AWS Account
-- Hack   : Add ACL to the bucket. Grant Read privilages to the bucket using canonical user id of another AWS Account
+- Hack   : Add ACL to the bucket. Grant Read privilages to the bucket using email address
+- Hack   : Add ACL to the bucket. Grant Read privilages to the bucket using canonical user id
 - Hack   : Create a Bucket in S3
 - Hack   : Create a S3 bucket in a different region EU
 - Hack   : Create a folder in a S3 bucket
@@ -12,6 +12,8 @@ AWS S3 Hacks
 - Hack   : Delete a s3 object
 - Hack   : Delete a S3 bucket
 - Hack   : Download a S3 file or a S3 object
+- Hack   : Get the canonical user id of the S3 bucket
+- Hack   : Get the Location of the s3 bucket
 - Hack   : Get all the S3 regions
 - Hack   : List all the S3 buckets
 - Hack   : List all the objects in a S3 bucket
@@ -23,4 +25,3 @@ AWS S3 Hacks
 - Hack   : Search for a bucket with bucket name which is case sensitive
 - Hack   : Search for  bucket in a different AWS Region
 - Hack   : Upload a file to S3 bucket using method set_contents_from_filename
-

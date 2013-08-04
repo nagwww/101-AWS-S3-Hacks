@@ -2,9 +2,8 @@
 
 """
 - Author : Nag m
-- Hack   : Get the Location of the s3 bucket
-- Info   : The bucket eu-west-1.101-s3-aws is in AWS region eu-west-1
-           Did you know if you do not specify the host it still works ?????? Yes it works.
+- Hack   : Get the canonical user id of the S3 bucket
+- Info   : Get the canonical user id of the S3 bucket
 """
 
 import boto
