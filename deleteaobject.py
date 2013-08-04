@@ -2,8 +2,9 @@
 
 """
 - Author : Nag m
-- Delete a object named
-  * myfile.txt
+- Hack   : Delete a s3 object
+- Info   : Delete a object named
+  	  - myfile.txt
 """
 
 import boto

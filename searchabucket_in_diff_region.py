@@ -2,9 +2,10 @@
 
 """
 - Author : Nag m
-- Search for a bucket named
-  * eu-west-1.101-s3-aws in AWS region eu-west-1
-  ** Did you know if you do not specify the host it still works ?????? Yes it works.
+- Hack   : Search for  bucket in a different AWS Region
+- Info   : Search for a bucket named
+  	  * eu-west-1.101-s3-aws in AWS region eu-west-1
+          ** Did you know if you do not specify the host it still works ?????? Yes it works.
 """
 
 import boto

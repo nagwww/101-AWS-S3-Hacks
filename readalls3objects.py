@@ -2,9 +2,10 @@
 
 """
 - Author : Nag m
-- Lists all objects in a bucket
-- The name of the bucket is
-   * 101-s3-aws
+- Hack   : List all the objects in a S3 bucket
+- Info   : Lists all objects in a bucket
+	   The name of the bucket is
+   	   * 101-s3-aws
 """
 
 import boto

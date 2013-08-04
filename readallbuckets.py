@@ -2,7 +2,8 @@
 
 """
 - Author : Nag m
-- Lists all the buckets 
+- Hack   : List all the S3 buckets
+- Info   : List all the buckets 
 """
 
 import boto

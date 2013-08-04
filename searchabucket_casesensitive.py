@@ -2,8 +2,9 @@
 
 """
 - Author : Nag m
-- Search for a bucket named
-  * 101-s3-aws
+- Hack   : Search for a bucket with bucket name which is case sensitive
+- Info   : Search for a bucket named
+ 	 * 101-S3-aws
 """
 
 import boto

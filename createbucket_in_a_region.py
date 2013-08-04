@@ -2,9 +2,10 @@
 
 """
 - Author : Nag m
-- Create a bucket named
-  * 101-s3-aws
-  * Region eu-west-1
+- Hack   : Create a S3 bucket in a different region EU
+- Info   : Create a bucket named 
+	   - 101-s3-aws
+ 	   - Region eu-west-1
 """
 
 import boto

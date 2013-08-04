@@ -2,8 +2,10 @@
 
 """
 - Author : Nag m
-- Upload a file named
-  * myfile.txt
+- Hack   : Upload a file to S3 bucket using method set_contents_from_filename
+- Info   : Upload a file named
+ 	   * myfile.txt
+	  set_contents_from_filename vs send_file. set_contents_from_filename uses send_file
 """
 
 import boto

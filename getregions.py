@@ -2,7 +2,8 @@
 
 """
 - Author : Nag m
-- Get all the S3 regions
+- Hack   : Get all the S3 regions
+- Info   : Get all the S3 regions
 """
 
 import boto

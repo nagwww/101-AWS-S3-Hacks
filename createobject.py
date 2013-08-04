@@ -2,8 +2,9 @@
 
 """
 - Author : Nag m
-- Create a object named
-  * myfile.txt
+- Hack   : Create a new object in S3
+- Info   : Create a object named
+ 	   - myfile.txt
 """
 
 import boto

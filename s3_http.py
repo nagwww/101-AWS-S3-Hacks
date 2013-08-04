@@ -2,10 +2,11 @@
 
 """
 - Author : Nag m
-- Make http connection to the S3 endpoint
-- To confirm it is making a http connection run tcpdump you should see something thing like s3-1-w.amazonaws.com.http
-- If it is a https then you should see something like s3-1-w.amazonaws.com.https
-  * Bucket Name : 101-s3-aws
+- Hack   : Make a http connection to S3 instead of https
+- Info   : Make http connection to the S3 endpoint
+	   To confirm it is making a http connection run tcpdump you should see something thing like s3-1-w.amazonaws.com.http
+	   If it is a https then you should see something like s3-1-w.amazonaws.com.https
+	   Bucket Name : 101-s3-aws
 """
 
 import boto

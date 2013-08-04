@@ -2,8 +2,11 @@
 
 """
 - Author : Nag m
-- Upload a file named
-  * myfile.txt
+- Hack   : Download a S3 file or a S3 object
+- Info   : Download a file named
+  	   - myfile.txt
+	   Using the method get_contents_to_filename.
+	   The method get_contents_to_filename uses the method get_file internally
 """
 
 import boto

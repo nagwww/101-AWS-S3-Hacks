@@ -2,8 +2,9 @@
 
 """
 - Author : Nag m
-- Create a bucket named
-  * 101-s3-aws
+- Hack   : Create a Bucket in S3
+- Info   : Create a bucket named
+            * 101-s3-aws
 """
 
 import boto

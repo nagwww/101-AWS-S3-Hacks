@@ -2,8 +2,9 @@
 
 """
 - Author : Nag m
-- Search for a bucket named
-  * 101-s3-aws
+- Hack   : Search for a specific bucket
+- Info   : Search for a bucket named
+  	   * 101-s3-aws
 """
 
 import boto

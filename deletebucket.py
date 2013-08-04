@@ -2,8 +2,9 @@
 
 """
 - Author : Nag m
-- Delete a bucket named
-  * 101-s3-aws
+- Hack   : Delete a S3 bucket
+- Info   : Delete a bucket named
+  	  - 101-s3-aws
 """
 
 import boto

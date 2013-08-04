@@ -2,8 +2,9 @@
 
 """
 - Author : Nag m
-- How to set the debugging
-  * 101-s3-aws
+- Hack   : How to enable debugging for S3
+- Info   : How to set the debugging
+ 	   * 101-s3-aws
 """
 
 import boto
