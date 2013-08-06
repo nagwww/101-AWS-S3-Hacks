@@ -11,10 +11,17 @@ AWS S3 Hacks
 - Hack   : Create a new object in S3
 - Hack   : Delete a s3 object
 - Hack   : Delete a S3 bucket
+- Hack   : Disable a buckets Versioning
 - Hack   : Download a S3 file or a S3 object
+- Hack   : Enable Versioning
 - Hack   : Get the canonical user id of the S3 bucket
 - Hack   : Get the Location of the s3 bucket
+- Hack   : List whether the object is encrypted while at rest on the server
+- Hack   : List all the objects Owner
 - Hack   : Get all the S3 regions
+- Hack   : List all the objects size in bytes
+- Hack   : List all the objects last modified timestamp in Zulu format
+- Hack   : List all the objects with in a bucket
 - Hack   : List all the S3 buckets
 - Hack   : List all the objects in a S3 bucket
 - Hack   : How to enable debugging for S3
@@ -25,3 +32,4 @@ AWS S3 Hacks
 - Hack   : Search for a bucket with bucket name which is case sensitive
 - Hack   : Search for  bucket in a different AWS Region
 - Hack   : Upload a file to S3 bucket using method set_contents_from_filename
+- Hack   : Find out the status of the Bucket Versioning
