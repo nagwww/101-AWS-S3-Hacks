@@ -8,10 +8,9 @@
 
 import boto
 
-def searchabucket():
-   bucket = conn.lookup("eu-west-1.101-s3-aws")
-   print bucket.get_location()
+def get_canonicaluid():
+   print conn.get_canonical_user_id()
 
 if __name__ == "__main__":
-   conn = boto.connect_s3(host='s3-eu-west-1.amazonaws.com')
-   searchabucket()
+   conn = boto.connect_s3()
+   get_canonicaluid()

@@ -11,7 +11,7 @@ import boto
 
 def addacl(name):
    bucket = conn.get_bucket(name)
-   bucket.add_user_grant("READ","nagwww@gmail.com")
+   bucket.add_user_grant("READ","ba54237358a1eaafd46b06257a8e7a8023f71e243b86bfaef3e9e25429b401cc")
    print "Added ACL to the Bucket named ", bucket.name, " "
 
 if __name__ == "__main__":
