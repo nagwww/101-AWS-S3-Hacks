@@ -13,6 +13,8 @@ def getacl(name):
    bucket = conn.get_bucket(name)
    bucket_acl =  bucket.get_acl()
    print bucket_acl
+   for grant in bucket_acl.acl.grants:
+      print grant.permission
 
 if __name__ == "__main__":
    conn = boto.connect_s3()
