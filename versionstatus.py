@@ -9,11 +9,11 @@
 
 import boto
 
-def addacl(name):
+def version(name):
    bucket = conn.get_bucket(name)
    print bucket.get_versioning_status()
 
 if __name__ == "__main__":
    conn = boto.connect_s3()
    bucketname = "101-s3-aws"
-   addacl(bucketname)
+   version(bucketname)
