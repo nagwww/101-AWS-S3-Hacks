@@ -2,8 +2,8 @@
 
 """
 - Author : Nag m
-- Hack   : Check if a key exists
-- Info   : Check if a key exists
+- Hack   : Generate a URL for the S3 object with expiration of 5 min
+- Info   : Generate a URL for the S3 object with expiration of 5 min
             * 101-s3-aws
 """
 
