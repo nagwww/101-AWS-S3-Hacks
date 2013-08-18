@@ -9,11 +9,11 @@
 
 import boto
 
-def downloadfile():
+def expiary():
    bucket = conn.get_bucket("101bucket")
    for key in bucket:
        print key.name, key.expiry_date
 
 if __name__ == "__main__":
    conn = boto.connect_s3()
-   downloadfile()
+   expiary()

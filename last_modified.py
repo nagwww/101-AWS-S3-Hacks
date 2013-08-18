@@ -9,7 +9,7 @@
 
 import boto
 
-def listobj(name):
+def modified(name):
    bucket = conn.get_bucket(name)
    lt =  bucket.list()
    for obj in lt:
@@ -18,4 +18,4 @@ def listobj(name):
 if __name__ == "__main__":
    conn = boto.connect_s3()
    bucketname = "101-s3-aws"
-   listobj(bucketname)
+   modified(bucketname)
