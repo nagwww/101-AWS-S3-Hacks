@@ -11,7 +11,7 @@
 
 import boto
 
-metadata = {'name':'Mr. Nag'}
+metadata = {'name':'Mr. Nag','Add':'cupe'}
 
 def listobj(name):
    bucket = conn.get_bucket(name)
