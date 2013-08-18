@@ -14,9 +14,6 @@ def acl(name):
    key =  bucket.get_key("myfile1.txt")
    key_acl = key.get_acl()
    print key_acl.to_xml()
-#   print key_acl.parent.to_xml()
-#   for grant in key_acl.acl.grants:
-#      print grant.permission
 
 
 if __name__ == "__main__":
