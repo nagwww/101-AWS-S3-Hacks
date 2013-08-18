@@ -9,7 +9,7 @@
 
 import boto
 
-def lifecycle(name):
+def tag(name):
    bucket = conn.get_bucket(name)
    tagset = boto.s3.tagging.TagSet()
    tagset.add_tag("name","nag")
@@ -20,4 +20,4 @@ def lifecycle(name):
 if __name__ == "__main__":
    conn = boto.connect_s3()
    bucketname = "101-s3-aws"
-   lifecycle(bucketname)
+   tag(bucketname)

@@ -2,8 +2,8 @@
 
 """
 - Author : Nag m
-- Hack   : Upload a file to S3 bucket using method set_contents_from_filename
-- Info   : Upload a file named
+- Hack   : Set metadata for a new s3 object on creation
+- Info   : Set metadata for a new s3 object on creation
  	   * myfile.txt
 	  set_contents_from_filename vs send_file. set_contents_from_filename uses send_file
 """
