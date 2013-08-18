@@ -13,7 +13,7 @@ def cors(name):
    bucket = conn.get_bucket(name)
    cors = boto.s3.cors.CORSConfiguration()
    cors.add_rule('GET','www.google.com',allowed_header="*")
-   bucket.set_cors(cors)
+   print bucket.set_cors(cors)
 
 if __name__ == "__main__":
    conn = boto.connect_s3()
