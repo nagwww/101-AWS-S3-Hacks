@@ -2,8 +2,8 @@
 
 """
 - Author : Nag m
-- Hack   : Disable a buckets Versioning 
-- Info   : Disable a buckets Versioning
+- Hack   : Disable  buckets Versioning 
+- Info   : Disable  buckets Versioning
             * 101-s3-aws
 """
 
