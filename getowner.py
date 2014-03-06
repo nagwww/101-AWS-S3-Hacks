@@ -18,5 +18,5 @@ def listobj(name):
 
 if __name__ == "__main__":
    conn = boto.connect_s3()
-   bucketname = "101-s3-aws"
+   bucketname = "com."
    listobj(bucketname)
