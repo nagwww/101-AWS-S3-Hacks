@@ -9,6 +9,6 @@
 import boto3
 
 if __name__ == "__main__":
-   client = boto3.client('s3')
-   bucketname = "us-east-1.nag"
-   print client.create_bucket(Bucket=bucketname)
+    client = boto3.client('s3')
+    bucketname = "us-east-1.nag"
+    print client.create_bucket(Bucket=bucketname)
