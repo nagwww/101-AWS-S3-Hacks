@@ -2,7 +2,7 @@
 
 """
 - Author : Nag m
-- Hack   : Create an Bucket in S3
+- Hack   : List all the S3 buckets in an account
 """
 
 import boto3
