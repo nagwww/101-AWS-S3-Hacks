@@ -3,6 +3,7 @@
 """
 - Author : Nag m
 - Hack   : Tag an s3 bucket
+- AWS CLI: aws s3api put-bucket-tagging --bucket us-west-2.nag --tagging 'TagSet=[{Key=name,Value=nag}]'
 """
 
 import boto3
