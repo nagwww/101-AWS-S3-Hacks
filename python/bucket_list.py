@@ -3,6 +3,7 @@
 """
 - Author : Nag m
 - Hack   : List all the S3 buckets in an account
+- AWS CLI: aws s3 ls
 """
 
 import boto3
