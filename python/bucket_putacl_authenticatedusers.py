@@ -4,6 +4,7 @@
 - Author : Nag m
 - Hack   : Grant read access to Authenticated users ( You sure don't want to do this anytime )
 - AWS CLI:aws s3api put-bucket-acl --bucket us-west-2.nag --grant-read uri=http://acs.amazonaws.com/groups/global/AuthenticatedUsers
+Note     : This is going to overwrite your current ACL's.
 """
 
 import json
