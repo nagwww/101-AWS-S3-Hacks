@@ -1,0 +1,12 @@
+{
+  "Rules": [
+    {
+      "Status": "Enabled",
+      "Prefix": "",
+      "ID": "Delete after 5 days",
+      "Expiration": {
+        "Days": 5
+      }
+    }
+  ]
+}
