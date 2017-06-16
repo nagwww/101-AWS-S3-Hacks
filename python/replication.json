@@ -1,0 +1,15 @@
+{
+
+        "Rules": [
+            {
+                "Status": "Enabled",
+                "Prefix": "",
+                "Destination": {
+                    "Bucket": "arn:aws:s3:::us-east-1.nag",
+                    "StorageClass": "STANDARD"
+                },
+                "ID": "us-west-2.nag1"
+            }
+        ],
+        "Role": "arn:aws:iam::220580744359:role/service-role/replication_role_for_us-west-2.nag_to_us-east-1.nag"
+    }
