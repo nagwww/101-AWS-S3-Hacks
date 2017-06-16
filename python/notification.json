@@ -1,0 +1,12 @@
+{
+  "QueueConfigurations": [
+    {
+      "QueueArn": "arn:aws:sqs:us-west-2:220580744359:nag1",
+      "Events": [
+        "s3:ObjectCreated:Put"
+      ],
+      "Id": "Test11"
+    }
+  ]
+}
+
