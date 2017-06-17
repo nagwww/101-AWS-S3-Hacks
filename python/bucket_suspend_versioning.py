@@ -9,9 +9,9 @@
 import json
 import boto3
 
-v={
-        'Status': 'Suspended'
-    }
+v = {
+    'Status': 'Suspended'
+}
 
 if __name__ == "__main__":
     client = boto3.client('s3')
