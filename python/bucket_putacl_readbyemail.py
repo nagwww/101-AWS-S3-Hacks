@@ -17,15 +17,15 @@ acp = {
                 "Type": "AmazonCustomerByEmail",
                 "EmailAddress": "test@gmail.com"
             },
-            "Permission" : "READ"
+            "Permission": "READ"
         }
 
     ],
-    "Owner" : {
+    "Owner": {
         "DisplayName": "nagm",
         "ID": "ba54237358a1eaafd46b0xxxxxx3e9e25429b401cc"
 
-      }
+    }
 }
 
 if __name__ == "__main__":
