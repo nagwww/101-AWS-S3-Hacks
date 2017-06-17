@@ -17,15 +17,15 @@ acp = {
                 "Type": "CanonicalUser",
                 "ID": "xxxx"
             },
-            "Permission" : "READ"
+            "Permission": "READ"
         }
 
     ],
-    "Owner" : {
+    "Owner": {
         "DisplayName": "nagm",
         "ID": "xxxx"
 
-      }
+    }
 }
 
 if __name__ == "__main__":
