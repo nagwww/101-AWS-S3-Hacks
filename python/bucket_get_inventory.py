@@ -3,7 +3,7 @@
 """
 - Author : Nag m
 - Hack   : Get the inventory configurations for an S3 bucket.
-- AWS CLI: aws s3api get-bucket-inventory-configurations --bucket us-west-2.nag
+- AWS CLI: aws s3api get-bucket-inventory-configuration --bucket us-west-2.nag
 """
 
 import boto3
